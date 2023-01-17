@@ -1385,15 +1385,14 @@ dependencies = [
 [[package]]
 name = "rbx_binary"
 version = "0.6.6"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "842a9253d37ca9df932108806a0f6c97195f2411bf05671e88744be622548807"
+source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
 dependencies = [
  "log",
  "lz4",
  "profiling",
  "rbx_dom_weak",
  "rbx_reflection",
- "rbx_reflection_database 0.2.4+roblox-504",
+ "rbx_reflection_database",
  "thiserror",
 ]
 
@@ -1417,8 +1416,7 @@ dependencies = [
 [[package]]
 name = "rbx_dom_weak"
 version = "2.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b7cc2238fd858d706f4f5c6a0f9af3cd4a10f3f8dc8b6534e683f8543af26f33"
+source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
 dependencies = [
  "rbx_types",
  "serde",
@@ -1427,7 +1425,7 @@ dependencies = [
 [[package]]
 name = "rbx_reflection"
 version = "4.2.0"
-source = "git+https://github.com/FilamentGames/rbx-dom?branch=package-link#37e17d4f1f73dfc36ee7f508239f07d4c66970b3"
+source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
 dependencies = [
  "rbx_types",
  "serde",
@@ -1436,8 +1434,7 @@ dependencies = [
 [[package]]
 name = "rbx_reflection_database"
 version = "0.2.5+roblox-530"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3e790ac1c92dee33669e7e12414caf75eb5cfce6fb5c54998eb9001d204fbab1"
+source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
 dependencies = [
  "lazy_static",
  "rbx_reflection",
@@ -1448,8 +1445,7 @@ dependencies = [
 [[package]]
 name = "rbx_types"
 version = "1.4.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a773e53402f2ae7537bbec77badb7e3ff3e6ddac5ee9c2df7edf0a60edf5c9d8"
+source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
 dependencies = [
  "base64 0.13.0",
  "bitflags",
@@ -1463,14 +1459,13 @@ dependencies = [
 [[package]]
 name = "rbx_xml"
 version = "0.12.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2559683f2f9205d442bd9083d7557be58b6cdcd0e5cc22600a6546a08e6d54f0"
+source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
 dependencies = [
  "base64 0.13.0",
  "log",
  "rbx_dom_weak",
  "rbx_reflection",
- "rbx_reflection_database 0.2.4+roblox-504",
+ "rbx_reflection_database",
  "xml-rs",
 ]
 
@@ -1540,7 +1535,7 @@ dependencies = [
  "rbx_cookie",
  "rbx_dom_weak",
  "rbx_reflection",
- "rbx_reflection_database 0.2.2+roblox-498",
+ "rbx_reflection_database",
  "rbx_xml",
  "reqwest",
  "serde",
