@@ -1385,7 +1385,7 @@ dependencies = [
 [[package]]
 name = "rbx_binary"
 version = "0.6.6"
-source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
+source = "git+https://github.com/FilamentGames/rbx-dom?branch=font-export-fix#451fcd6fc3bf29e668a6cf2f9984435b6f8f1e1a"
 dependencies = [
  "log",
  "lz4",
@@ -1416,7 +1416,7 @@ dependencies = [
 [[package]]
 name = "rbx_dom_weak"
 version = "2.4.0"
-source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
+source = "git+https://github.com/FilamentGames/rbx-dom?branch=font-export-fix#451fcd6fc3bf29e668a6cf2f9984435b6f8f1e1a"
 dependencies = [
  "rbx_types",
  "serde",
@@ -1425,7 +1425,7 @@ dependencies = [
 [[package]]
 name = "rbx_reflection"
 version = "4.2.0"
-source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
+source = "git+https://github.com/FilamentGames/rbx-dom?branch=font-export-fix#451fcd6fc3bf29e668a6cf2f9984435b6f8f1e1a"
 dependencies = [
  "rbx_types",
  "serde",
@@ -1434,7 +1434,7 @@ dependencies = [
 [[package]]
 name = "rbx_reflection_database"
 version = "0.2.5+roblox-530"
-source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
+source = "git+https://github.com/FilamentGames/rbx-dom?branch=font-export-fix#451fcd6fc3bf29e668a6cf2f9984435b6f8f1e1a"
 dependencies = [
  "lazy_static",
  "rbx_reflection",
@@ -1445,7 +1445,7 @@ dependencies = [
 [[package]]
 name = "rbx_types"
 version = "1.4.2"
-source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
+source = "git+https://github.com/FilamentGames/rbx-dom?branch=font-export-fix#451fcd6fc3bf29e668a6cf2f9984435b6f8f1e1a"
 dependencies = [
  "base64 0.13.0",
  "bitflags",
@@ -1459,7 +1459,7 @@ dependencies = [
 [[package]]
 name = "rbx_xml"
 version = "0.12.4"
-source = "git+https://github.com/UpliftGames/rbx-dom?branch=implement-font-type#ff6e9f1e30d1284453ae328433f1580c710fc708"
+source = "git+https://github.com/FilamentGames/rbx-dom?branch=font-export-fix#451fcd6fc3bf29e668a6cf2f9984435b6f8f1e1a"
 dependencies = [
  "base64 0.13.0",
  "log",
